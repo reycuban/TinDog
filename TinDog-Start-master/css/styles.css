@@ -1,0 +1,195 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+/****Big Headings*****/
+
+ .big-headings {
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: whitesmoke;
+ }
+
+#title {
+  text-align: left;
+}
+
+/*Color sections*/
+
+.white-section {
+  background-color: whitesmoke;
+}
+
+.color-section {
+  background-color: #ff6b81;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+/*** Nagivation ***/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  font-family: "Montserrat-light";
+}
+
+.navbar, .navbar-brand {
+  color: #FFC312 !important;
+}
+
+.navbar-brand {
+  font-family: monospace;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/****Buttons*****/
+.download-buttons {
+  margin: 5% 3% 5% 0;
+  transition: background .2s ease-in, transform .2s .1s ease-out, color .2s ease-in;
+}
+
+.download-buttons:hover {
+  color: whitesmoke;
+  transform: scale(1.1) rotateY(20deg) rotate(1deg);
+}
+
+/****image*****/
+.title-image {
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 30;
+}
+
+/****Features****/
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.boxesC {
+  text-align: center;
+  padding: 5%;
+}
+
+.colorIcon {
+  font-size: 3.4rem;
+  color: #ff6b81;
+  transition: 0.4s;
+  margin: 2rem;
+}
+
+.colorIcon:hover {
+  color: #c0392b;
+}
+
+/***** testimonial****/
+#testimonials {
+  padding: 7% 15%;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+.testImage {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.LogosPress {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*******PRicing Table********/
+#pricing {
+  padding: 90px 20px 20px 20px;
+  text-align: center;
+}
+.price-text {
+  font-size: 3rem;
+  line-height: 2.5;
+}
+
+.pricing-colum {
+  padding: 3% 2%;
+}
+
+/*******Footer*****/
+#cta {
+  height: 500px;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.icons2 {
+  margin: 1%;
+  font-size: 20px;
+  transition: .2s ease-in-out;
+}
+.icons2:hover {
+  color: #ff6b81;
+  transform: scale(1.2) rotate(360deg);
+}
+
+/****Media query****/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+@media(max-width: 360px) {
+  .big-headings {
+    font-size: 1.7rem;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+
+  .download-buttons {
+    padding: 5px 15px;
+    font-size: 1rem;
+  }
+}
